@@ -1,22 +1,28 @@
 # Course Management REST API
+
 This project is a Spring Boot REST API for managing course information.
 
 ## Usage
-- Pull  the docker image
+
+- Clone the Repository
 
   ```shell
-  docker pull yash0903/first-image:latest
+  git clone https://github.com/yashh0903/spring-boot-api.git
   ```
-- Create container to run the application inside it
+
+- ```shell
+  cd spring-boot-api
+  ```
+- Just run the following command and tha's it!
 
   ```shell
-  docker create --name my-container -p 8080:8080 yash0903/first-image
+  ./script.sh
   ```
-- Start the container
-  ```shell
-  docker start my-container
-  ```
+
 - Check the app in browser
+
   ```shell
   http://localhost:8080/home
+  http://localhost:8080/courses
+
   ```
